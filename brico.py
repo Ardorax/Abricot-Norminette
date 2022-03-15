@@ -558,7 +558,7 @@ class Check_file:
 
 class Too_Long_Line:
     def __init__(self):
-        self.line_length = 80
+        self.line_length = 81
         self.attributes = {"line_length" : self.line_length}
         self.active = True
 
